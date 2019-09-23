@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="4.504661">
+<testcase classname="Login to Landscapper admin" name="1. To test or verify to view client list" time="4.479905">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Cgt-Jod-Lin-ManoharJ', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-64-generic', java.version: '1.8.0_222'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55884e85b7a9 &lt;unknown&gt;&#10;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#10;&#9;at StepDefinationfile.CreateClient.Add_user_is_already_on_login_page(CreateClient.java:19)&#10;&#9;at ✽.Given Add Client_User is already on login page(/D/eclipse/FreeCrmBddFramework/src/main/java/Featurefile/Addclient.feature:6)&#10;"><![CDATA[Given Add Client_User is already on login page..............................failed
+When Add Client_Title of login page is Login................................skipped
+Then Add Client_User enter username "1_land@yopmail.com"....................skipped
+Then Add Client_User enter password "admin@1"...............................skipped
+Then Add Client_User click on Submit button.................................skipped
+Then Add Client_View client list............................................skipped
+Then Add Client_Close browser...............................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Cgt-Jod-Lin-ManoharJ', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-64-generic', java.version: '1.8.0_222'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55884e85b7a9 <unknown>
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinationfile.CreateClient.Add_user_is_already_on_login_page(CreateClient.java:19)
+	at ✽.Given Add Client_User is already on login page(/D/eclipse/FreeCrmBddFramework/src/main/java/Featurefile/Addclient.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Login to Landscapper admin" name="2. To test or verify client listining page" time="0.024756">
+<failure message="java.lang.NullPointerException&#10;&#9;at StepDefinationfile.CreateClient.Add_user_enter_username(CreateClient.java:35)&#10;&#9;at ✽.Then Add Client_User enter username &quot;1_land@yopmail.com&quot;(/D/eclipse/FreeCrmBddFramework/src/main/java/Featurefile/Addclient.feature:18)&#10;"><![CDATA[Then Add Client_User enter username "1_land@yopmail.com"....................failed
+Then Add Client_User enter password "admin@1"...............................skipped
+Then Add Client_User click on Submit button.................................skipped
+Then Add Client_View client list............................................skipped
+Then Add Verify Title of client list page...................................skipped
+Then Add Client_Close browser...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefinationfile.CreateClient.Add_user_enter_username(CreateClient.java:35)
+	at ✽.Then Add Client_User enter username "1_land@yopmail.com"(/D/eclipse/FreeCrmBddFramework/src/main/java/Featurefile/Addclient.feature:18)
+]]></failure>
+</testcase>
+</testsuite>
